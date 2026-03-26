@@ -642,3 +642,21 @@ footer {
         text-align: center;
     }
 }
+
+@media (max-width: 390px) {
+    .discovery-title h2 {
+        font-size: 2rem;
+    }
+    .section-header h2 {
+        font-size: 2.5rem;
+    }
+    .portfolio-header h2 {
+        font-size: 2.3rem;
+    }
+    .btn-primary-glow, .btn-secondary {
+        font-size: .8rem;
+    }
+    .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+        bottom: var(--swiper-pagination-bottom,-8px);
+    }
+}
